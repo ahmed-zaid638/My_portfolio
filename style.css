@@ -31,7 +31,8 @@
 }
 
 html {
-  scroll-behavior: smooth;
+  scroll-behavior:smooth;
+  
 }
 
 body,
@@ -579,6 +580,7 @@ border-radius: 10px ;
   text-align: center;
   margin-top: 60px;
   
+  
 }
 
 
@@ -672,12 +674,12 @@ cursor: pointer;
 .img-overlay .img-description  {
 
 }
-.img-overlay .img-description  h3 {
+.img-overlay .img-description  h3  a{
   color: var(--light-one);
   font-size: 30px;
 }
 
-.img-overlay .img-description  h5 {
+.img-overlay .img-description  h5 a {
    font-size: 17px;
    color: var(--light-three);
    
